@@ -1,0 +1,18 @@
+/var/www/html/themefoundation/wp-includes/js/tinymce/plugins/wpeditimage
+
+This section calls the toolbar:
+
+	editor.on( 'wptoolbar', function( event ) {
+		if ( event.element.nodeName === 'IMG' && ! isPlaceholder( event.element ) ) {
+			event.toolbar = toolbar;
+		}
+	} );
+
+Switching IMG to PRE brought up the image toolbar while clicking on an <pre> tag.
+
+However, copying the whole file into my plugin didn't work. The wpeditimage feature
+seems like it must be loading itself specifically as a TinyMCE plugin and thereby
+gaining access to more TinyMCE functionality. I'm not sure. Here's a link to a
+tutorial on createing TinyMCE plugins for WordPress:
+
+http://www.wpbeginner.com/wp-tutorials/how-to-create-a-wordpress-tinymce-plugin/

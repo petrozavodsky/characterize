@@ -7,10 +7,8 @@ Version: 0.1.0
 Author: ModularWP
 Author URI: https://themefoundation.com/
 License: GPLv2 or later
-Text Domain: code_embed_textdomain
+Text Domain: characterize_textdomain
 */
-
-// TODO: it looks like the code needs to be hidden in the editor, and stored in a meta box. Ugh.
 
 
 /**

@@ -94,3 +94,4 @@
 	};
 	wp.mce.views.register( shortcode_string, wp.mce.boutique_banner );
 }(jQuery));
+

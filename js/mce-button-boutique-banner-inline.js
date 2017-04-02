@@ -3,7 +3,7 @@
 	tinymce.PluginManager.add( 'dtbaker_mce_banner', function( editor ) {
 		editor.addButton( 'dtbaker_mce_banner_button', {
 			text: 'Banner',
-			icon: false,
+			icon: 'dashicon dashicons-editor-code',
 			onclick: function() {
 				wp.mce.boutique_banner.popupwindow(editor);
 			}
